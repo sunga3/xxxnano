@@ -173,6 +173,15 @@ nav{
     display: block;
     margin-bottom: 5px;
 }
+button{
+    outline: 0;
+    border: 0;
+    text-align: left;
+    border-radius: 2px;
+    background: #fff;
+   
+}
+
 
 
 @media (max-width: 900px){
@@ -294,7 +303,7 @@ margin-left: 15px;
 }
 .publisher button{
     background: #ed3833;
-    color: #fff3;
+    color: #ccc;
     padding: 8px 30px;
     border: 0;
     outline: 0;
