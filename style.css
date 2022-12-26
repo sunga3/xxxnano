@@ -29,10 +29,12 @@ nav{
     margin-right: 25px;
 }
 
-.nav-right .user-icon{
-    width: 35px;
-    border-radius: 50%;
-    margin-right: 0;
+.nav-right .icon-info a{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+   
 }
 .nav-left .menu-icon{
     width: 22px;
@@ -153,6 +155,10 @@ nav{
     width: 100%;
     border-radius: 5px;
 }
+.vid-list img:hover{
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
 .vid-list .flex-div{
     align-items: flex-start;
     margin-top: 7px;
@@ -166,6 +172,7 @@ nav{
 .vid-info{
     color: #5a5a5a;
     font-size: 13px;
+    
 }
 .vid-info a{
     color: #000;
@@ -173,13 +180,20 @@ nav{
     display: block;
     margin-bottom: 5px;
 }
+.vid-info a:hover{
+    font-size: larger;
+}
+
 button{
     outline: 0;
     border: 0;
     text-align: left;
     border-radius: 2px;
     background: #fff;
-   
+   box-shadow: 5px 5px 5px #6c6b6b;
+}
+button:hover{
+    box-shadow: 6px 6px 6px #5a5a5a;
 }
 
 
