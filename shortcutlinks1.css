@@ -23,4 +23,28 @@
     background: #caa68f;
   }
  
-  
+  .list-container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    padding-top: 70px;
+}
+body{
+    background-color: #FFDFD3;
+}
+
+.list-container-title h1{
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    color: gray;
+    
+}
+.vl {
+    border-left: 6px solid #fad1c3;
+    height: 100%;
+    position: absolute;
+  left: 15%;
+}
