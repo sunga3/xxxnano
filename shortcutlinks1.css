@@ -6,7 +6,7 @@
     flex-wrap: wrap;
    color: #000;
    font-size: 18px;
-   overflow: hidden;
+   overflow: auto;
 }
 .shortcut--links a img{
     width: 20px;
