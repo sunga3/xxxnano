@@ -45,6 +45,38 @@ body{
 .vl {
     border-left: 6px solid #fad1c3;
     height: 100%;
-    position: absolute;
+    position: fixed;
   left: 15%;
+  
+}
+
+h1{
+  text-align: center;
+  color: #3d3c3b;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+hr{
+  border: 5px solid  #fad1c3;
+  margin-bottom: 10px;
+  
+}
+.other-button button{
+ text-align: center;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 40px;
+  border-color:  #754738;
+  border-width: 1px;
+  border-style: solid;
+ width: 200px;
+ margin: 20px;
+color: #754738;
+margin-bottom: 3px;
+}
+
+.other-button button:hover{
+  background-color: #754738;
+  color: white;
 }
