@@ -212,7 +212,7 @@ button:hover{
 @media (max-width: 900px){
     
     .sidebar{
-        display: none;
+        
         overflow: visible;
     }
     .container .large-container{
@@ -241,9 +241,17 @@ button:hover{
 
 /* play video page */
 
-.play-container{
-    padding-left: 2%; 
 
+.play-container{
+    padding-left: 10%; 
+    
+    padding-right: 10%;
+    
+}
+.play-container h2{
+    text-align: center;
+    padding-bottom: 40px;
+    
 }
 .row{
     display: flex;
@@ -252,14 +260,24 @@ button:hover{
     background: #FFDFD3;
 
 }
+.row2 img{
+    margin-left: 118%;
+    height: 50px;
+    margin-bottom: 0s;
+}
 .play-video{
-    flex-basis: 69%;
+    padding-left: 15%; 
+    
+    padding-right: 15%;
 }
-.right-sidebar{
-    flex-basis: 30%;
-}
+
+
 .play-video video{
  width: 100%; 
+ margin-top: ;
+ 
+ 
+ 
 }
 .side-video-list{
     display: flex;
@@ -403,6 +421,30 @@ margin-left: 15px;
 .old-comment .acomment-action a{
     color: #0000ff;
 }
+ .play-container h1{
+    margin-top: 5px;
+}
+.big-button button{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 70px;
+    margin-left: 21%;
+    border-radius: 50px;
+    border: #000;
+    border-width: 1px;
+    border-color: #ef6331;
+    color: #ef6331;
+    font-size: x-large;
+    margin-bottom: 50%;
+}
+
+.big-button button:hover{
+    background-color: #754738;
+    color: white;
+  }
 @media (max-width:900px){
     .play-video{
         flex-basis: 100%;
