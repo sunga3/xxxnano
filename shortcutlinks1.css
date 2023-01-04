@@ -32,7 +32,7 @@
     padding-top: 70px;
 }
 body{
-    background-color: #FFDFD3;
+    background-color: #FFedda;
 }
 
 .list-container-title h1{
@@ -54,11 +54,11 @@ h1{
   text-align: center;
   color: #3d3c3b;
   margin-bottom: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 hr{
-  border: 5px solid  #fad1c3;
+  border: 4px solid  #907870;
   margin-bottom: 10px;
   
 }
