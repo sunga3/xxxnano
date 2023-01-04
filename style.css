@@ -16,7 +16,7 @@ img{
     align-items: center;
 }
 nav{
-    padding: 10px 2%;
+    padding: 15px 2%;
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background: #fff;
@@ -37,7 +37,7 @@ nav{
    
 }
 .nav-left .menu-icon{
-    width: 22px;
+    width: 30px;
     margin-right: 25px;
 }
 .nav-left .logo{
@@ -45,10 +45,11 @@ nav{
 }
 
 .nav-middle .search-box{
-    border: 2px solid #ccc;
-    margin-right: 150px;
+    border: 3px solid rgb(9, 9, 9);
+    margin-right: 30px;
     padding: 10px 12px;
     border-radius: 25px;
+    width: 700px;
 }
 .nav-middle .search-box input{
     width: 400px;
@@ -58,17 +59,23 @@ nav{
 }
 .nav-middle .search-box img{
     width: 15px;
+    margin-left: 450px;
 }
+.nav-right img{
+    margin-left: 10px;
+    width: 30px;
+}
+
 
 /* sidebar */
 
 .sidebar{
     background: white;
-    width: 15%;
+    width: 17%;
     height: 100vh;
     position: fixed;
     top: 0;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -137,8 +144,8 @@ nav{
 /* main */
 
 .container{
-    background: #FFDFD3;
-    padding-left: 17%;
+    background: #FFedda;
+    padding-left: 19%;
     padding-right: 2%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -179,35 +186,82 @@ nav{
     margin-right: 10px;
     border-radius: 50%;
     height: 10;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 .vid-info{
     color: #5a5a5a;
     font-size: 13px;
     
 }
+.vid-info p{
+    font-size: 15px;
+}
 .vid-info a{
     color: #000;
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
-}
-.vid-info a:hover{
     font-size: larger;
 }
+.vid-info a:hover{
+    font-size: large;
+}
 
-button{
-    outline: 0;
+ .list-container button{
+    outline: 1px;
     border: 0;
     text-align: left;
-    border-radius: 2px;
+    border-radius: 10px;
     background: #fff;
-   box-shadow: 5px 5px 5px #6c6b6b;
+   box-shadow: 2px 2px 2px #6c6b6b;
+   padding-bottom: 10px;
 }
-button:hover{
+.list-container button:hover{
     box-shadow: 6px 6px 6px #5a5a5a;
 }
+.upper-button button{
+    padding: 9px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #754738;
+    border-width: 1px;
+    border-color: #754738;
+    margin: 20px 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.upper-button button:hover{
+    background-color: #754738;
+    color: white;
+}
+.upper-button button1{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: white;
+    border-width: 1px;
+    border-color: #ffffff;
+    margin: 20px 10px;
+    font-size: larger;
+    background-color: #754738;
+    cursor: pointer;
+}
 
+.upper-button button1:hover{
+    background-color: #ffffff;
+    color: #754738;
+    
 
+}
+
+.upper-button img{
+    margin-left: 65%;
+    width: 35px;
+    
+}
 
 @media (max-width: 900px){
     
@@ -236,6 +290,9 @@ button:hover{
     .nav-middle .search-box img{
         padding-left: 90px;
     }
+    .upper-button img{
+        display: none;
+    }
 }
     
 
@@ -257,7 +314,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: #FFDFD3;
+    background: #FFedda;
 
 }
 .row2 img{
@@ -516,7 +573,7 @@ body {
 
 .comment__card {
   padding: auto;
-  background-color: #FFDFD3;
+  background-color: #FFedda;
   border: 0px solid rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
   min-width: 100%;
