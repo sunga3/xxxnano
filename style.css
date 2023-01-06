@@ -634,29 +634,32 @@ body {
 .sub-menu-wrap{
     position: absolute;
     top: 100%;
-    right: 10%;
+    right: 1%;
     width: 500px;
     max-height: 0px;
     overflow: hidden;
     transform: max-height 0.5s;
 }
-.sub-menu-wrap.open-menus{
-    max-height: 600px;
+.sub-menu-wrap.open-menu{
+    max-height: 500px;
+}
+.sub-menu-wrap.open-menu2{
+    max-height: 500px;
 }
 .sub-menu{
     background: white;
     padding: 20px;
     margin: 10px;
 }
-.uer-info{
+.user-info{
     display: flex;
     align-items: center;
 }
-.uer-info h3{
+.user-info h3{
     font-weight: 500;
 
 }
-.uer-info img{
+.user-info img{
     width: 60px;
     margin-right: 15px;
 }
@@ -693,10 +696,4 @@ body {
 }
 .sub-menu-link:hover p{
     font-weight: 600;
-}
-.user-pic{
-    width: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-left: 30px;
 }
