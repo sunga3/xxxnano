@@ -178,36 +178,102 @@
                 </div>
            </div>
            <a href=""></a><img src="images/queen.png"  class="user-pic"  onclick="toggleMenu4()">
-           <div class="sub-menu-wrap" id="newMenu4">
-            <div class="sub-menu">
+           <div class="sub-menu-wrap4" id="newMenu4">
+            <div class="sub-menu4">
                 <h2> <img src="images/queen.png" alt=""> PORN STAR <img src="images/queen.png" alt=""></h2>
                 <hr>
-                <div class="user-info">
-                    <a href=""><img src="images/FEMALE-TYPE.png" alt=""></a>
-                    <div class="sideimg"><a href=""><img src="images/BODY-TYPE.png" alt=""></a>
-                    <a href=""><img src="images/KEYWORDS.png" alt=""></a>
-                     </div>
-                </div>
-            <div class="below-img">
-                <a href="" class="sub-menu-link">
-                    <img src="images/single.png" alt="">
-                    <p>single</p>         
-                </a>
-            </div>
-            <div class="below-img">
-                <a href="" class="sub-menu-link">
-                    <img src="images/double.png" alt="">
-                    <p>partner</p>
-                    
-                </a>
-            </div>
-            <div class="below-img"> 
-                <a href="" class="sub-menu-link">
-                    <img src="images/many.png" alt="">
-                    <p>groups</p>
-                    
-                </a>
-            </div> 
+               
+                <div class="container4">
+                    <div class="mySlides4">
+                      <div class="numbertext">1 / 6</div>
+                      <img src="images/thumbnail2.png" style="width:90%">
+                    </div>
+                  
+                    <div class="mySlides4">
+                      <div class="numbertext">2 / 6</div>
+                      <img src="images/thumbnail3.png" style="width:90%">
+                    </div>
+                  
+                    <div class="mySlides4">
+                      <div class="numbertext">3 / 6</div>
+                      <img src="images/thumbnail4.png" style="width:90%">
+                    </div>
+                      
+                    <div class="mySlides4">
+                      <div class="numbertext">4 / 6</div>
+                      <img src="images/thumbnail5.png" style="width:90%">
+                    </div>
+                  
+                    <div class="mySlides4">
+                      <div class="numbertext">5 / 6</div>
+                      <img src="images/thumbnail6.png" style="width:90%">
+                    </div>
+                      
+                    <div class="mySlides4">
+                      <div class="numbertext">6 / 6</div>
+                      <img src="images/thumbnail7.png" style="width:90%">
+                    </div>
+                      
+                    <a class="prev" onclick="plusSlides4(-1)">❮</a>
+                    <a class="next" onclick="plusSlides4(1)">❯</a>
+                  
+                    <div class="caption-container4">
+                      <p id="caption"></p>
+                    </div>
+                  
+                    <div class="row4">
+                      <div class="column4">
+                        <img class="demo cursor" src="images/thumbnail2.png" style="width:100%" onclick="currentSlide1(1)" alt="The Woods">
+                      </div>
+                      <div class="column4">
+                        <img class="demo cursor" src="images/thumbnail3.png" style="width:100%" onclick="currentSlide1(2)" alt="Cinque Terre">
+                      </div>
+                      <div class="column4">
+                        <img class="demo cursor" src="images/thumbnail4.png" style="width:100%" onclick="currentSlide1(3)" alt="Mountains and fjords">
+                      </div>
+                      <div class="column4">
+                        <img class="demo cursor" src="images/thumbnail5.png" style="width:100%" onclick="currentSlide1(4)" alt="Northern Lights">
+                      </div>
+                      <div class="column4">
+                        <img class="demo cursor" src="images/thumbnail6.png" style="width:100%" onclick="currentSlide1(5)" alt="Nature and sunrise">
+                      </div>    
+                      <div class="column4">
+                        <img class="demo cursor" src="images/thumbnail7.png" style="width:100%" onclick="currentSlide1(6)" alt="Snowy Mountains">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <script>
+                  let slideIndex4 = 1;
+                  showSlides(slideIndex4);
+                  
+                  function plusSlides4(n) {
+                    showSlides(slideIndex4 += n);
+                  }
+                  
+                  function currentSlide1(n) {
+                    showSlides(slideIndex4 = n);
+                  }
+                  
+                  function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides4");
+                    let dots = document.getElementsByClassName("demo");
+                    let captionText = document.getElementById("caption");
+                    if (n > slides.length) {slideIndex4 = 1}
+                    if (n < 1) {slideIndex4 = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex4-1].style.display = "block";
+                    dots[slideIndex4-1].className += " active";
+                    captionText.innerHTML = dots[slideIndex4-1].alt;
+                  }
+                  </script>
+                      
             </div>
        </div>
            <a href=""></a><img src="images/hat.png" height="30" width="30"  class="user-pic"  onclick="toggleMenu5()">

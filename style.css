@@ -938,3 +938,123 @@ body {
     font-size: 40px;
     margin-left: 25%;
 }
+
+/* ---------------------------------dropdown 4 */
+
+.container4 {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides4 {
+    display: none;
+    margin-left: 50px;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(11, 7, 7);
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(64, 33, 25, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container4 {
+    text-align: center;
+    background-color: #754738;
+    padding: 20px 16px;
+    color: white;
+  }
+  
+  .row4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column4 {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .sub-menu-wrap4{
+    position: absolute;
+    top: 100%;
+    right: 1%;
+    width: 800px;
+    max-height: 0px;
+    overflow: auto;
+    transform: max-height 0.5s;
+    
+}
+.sub-menu-wrap4.open-menu{
+    max-height: 800px;
+    overflow: hidden;
+    
+}
+
+.sub-menu4{
+    background: #e7d1ca;
+    padding: 20px;
+    padding-top: 5PX;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.sub-menu h2{
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: 42%;
+}
+.sub-menu img{
+    align-items: center;
+}
