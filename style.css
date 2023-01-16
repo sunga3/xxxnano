@@ -315,7 +315,8 @@ float: right;
     padding-right: 10%;
     
 }
-.play-container h2{
+
+}.play-container h2{
     text-align: center;
     padding-bottom: 40px;
     
@@ -498,14 +499,15 @@ margin-left: 15px;
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 70px;
-    margin-left: 21%;
+    margin-left: 30%;
     border-radius: 50px;
     border: #000;
     border-width: 1px;
-    border-color: #ef6331;
-    color: #ef6331;
+    border-color: #70321b;
+    color: #894127;
     font-size: x-large;
     margin-bottom: 50%;
+    position: relative;
 }
 
 .big-button button:hover{
@@ -843,7 +845,7 @@ body {
   }
   
   /* Next & previous buttons */
-  .prev, .next {
+  .prev1, .next1 {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -859,13 +861,13 @@ body {
   }
   
   /* Position the "next button" to the right */
-  .next {
+  .next1 {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
+  .prev1:hover, .next1:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
@@ -888,7 +890,8 @@ body {
     position: absolute;
     top: 0;
   }
-  
+  .active, .dot1:hover {
+    background-color: #717171;}
  
   
   /* Fading animation */
@@ -904,7 +907,7 @@ body {
   
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+    .prev1, .next1,.text {font-size: 11px}
   }
   .sub-menu-wrap2{
     position: absolute;
